@@ -7,10 +7,30 @@ body {
 }
 section {
   background-color:#303238;
-  padding:30px;
-  border-radius:20px;
+  padding:25px;
+  border-radius:15px;
   margin:20px 0;
 }
 h2 {
   margin: 0 0 10px;
+  color:white;
+}
+a:link {
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color:white;
+  background-color:#7f6ce8;
+}
+a, a:visited {
+  text-decoration: none;
+  color:grey;
+}
+a:hover {
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color:#7f6ce8;
+  opacity: 0.6;
+  transition: 0.3s;
 }
