@@ -57,3 +57,22 @@ a:hover {
   opacity: 0.6;
   transition: 0.3s;
 }
+.holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin: 10px;
+}
+.cell {
+  text-align: center;
+  padding: 2px 5px;
+}
+.cell.hstart {
+  border-right: solid 1px;
+}
+.cell.vstart {
+  border-bottom: solid 1px;
+}
+b {
+  color:lightblue;
+}
