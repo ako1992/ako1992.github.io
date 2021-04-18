@@ -5,11 +5,12 @@ body {
   padding-bottom: 30px;
   padding-left: 50px;
 }
-.introduction {
+section {
   background-color:#303238;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-right:20px;
-  padding-left:20px;
+  padding:30px;
   border-radius:20px;
+  margin:20px 0;
+}
+h2 {
+  margin: 0 0 10px;
 }
