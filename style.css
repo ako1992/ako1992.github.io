@@ -23,22 +23,37 @@ h2 {
   margin: 0 0 10px;
   color:white;
 }
-a:link {
+h3 {
+  margin: 0 0 10px;
+}
+.navigation:link {
   padding: 10px 25px;
   border-radius: 5px;
   text-decoration: none;
   color:white;
   background-color:#7f6ce8;
 }
-a, a:visited {
+.navigation:visited {
   text-decoration: none;
   color:grey;
 }
-a:hover {
+.navigation:hover {
   padding: 10px 25px;
   border-radius: 5px;
   text-decoration: none;
   background-color:#7f6ce8;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+a:link {
+  text-decoration: none;
+  color:#7f6ce8;
+}
+a,a:visited {
+  text-decoration: none;
+  color:grey;
+}
+a:hover {
   opacity: 0.6;
   transition: 0.3s;
 }
