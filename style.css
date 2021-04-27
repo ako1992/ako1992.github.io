@@ -8,16 +8,71 @@ body {
   padding-bottom: 30px;
   padding-left: 50px;
 }
+.infobox {
+  background-color:#27292d;
+  width:27%;
+  padding:20px;
+  border-radius:15px;
+  margin:30px 30px 0 0;
+  display:inline-block;
+  vertical-align: top;
+}
+.box {
+  padding: 10px 0;
+  border-radius:15px;
+  margin:10px 0 0 0;
+}
 .boxbg {
   background-color:#27292d;
   padding:20px;
   border-radius:15px;
   margin:30px 0 0 0;
 }
-.box {
-  padding:20px;
-  border-radius:15px;
-  margin:10px 0 0 0;
+.icon {
+  vertical-align: middle;
+  width:15px;
+  height:auto;
+  padding-right: 10px
+}
+.logo {
+  vertical-align: middle;
+  width:64px;
+  height:auto;
+  padding-right: 15px
+}
+.headericon {
+  vertical-align: middle;
+  width:40px;
+  height:auto;
+  padding-right: 15px
+}
+.moreinfo {
+  text-decoration-line:underline;
+  text-decoration-style:dotted;
+}
+.moreinfo:hover span{
+    display:block;
+}
+.moreinfo span{
+    background: none repeat 0 0 #000000;
+    width: auto;
+    position: absolute;
+    display:none;
+    padding:10px;
+    z-index: 2;
+    border-radius: 10px;
+    font-style: normal;
+    font-size: 12px;
+    color:#8fa0b3;
+}
+.moreinfo span:after{
+    content:'';
+    position:absolute;
+    width:10px;
+    height:10px;
+}
+h1 {
+  color:white;
 }
 h2 {
   margin: 0 0 10px;
@@ -25,13 +80,14 @@ h2 {
 }
 h3 {
   margin: 0 0 10px;
+  color:white;
 }
 .navigation:link {
   padding: 10px 25px;
   border-radius: 5px;
   text-decoration: none;
   color:white;
-  background-color:#7f6ce8;
+  background: rgba(0, 0, 0, 0.2)
 }
 .navigation:visited {
   text-decoration: none;
@@ -42,7 +98,7 @@ h3 {
   border-radius: 5px;
   text-decoration: none;
   background-color:#7f6ce8;
-  opacity: 0.6;
+  opacity: 0.9;
   transition: 0.3s;
 }
 a:link {
@@ -76,4 +132,7 @@ a:hover {
 }
 b {
   color:lightblue;
+}
+i {
+  color:lightgray;
 }
